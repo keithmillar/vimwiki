@@ -1,0 +1,19 @@
+set pdev=printer_name
+
+HP_Deskjet_930C
+
+Printing from Vim is not like any other application since it has both console
+(Vim) and desktop (GVim) versions running off the same backend. On Linux, it
+does not show a Print Dialog, where I can pick the printer and other print
+options like number of pages per side, orientation and duplex. So, I print to a
+PDF file, open it in a PDF viewer and print from there.
+
+To print to a PDF file from Vim:
+1
+
+	:hardcopy > out.pdf
+
+	To print to a PS file from Vim:
+	1
+
+	:hardcopy > out.ps

@@ -1,0 +1,32 @@
+
+To open bookmarks and tabs in the background set the following to true
+{{{
+browser.tabs.loadDivertedInBackground
+browser.tabs.loadBookmarksInBackground
+}}}
+
+Make Firefox save tabs
+to activate it do the following steps.
+
+    Type about:config in the address bar and press enter.
+    Click on I'll be careful, I promise
+    Enter browser.warnOnQuit in the filter field at top
+    Double click (toggle) on it to change the boolean value to true.
+    Now enter browser.showQuitWarning in the filter field
+    Double click on it to change it to true
+    Now restart Firefox
+
+Now type quitwarning in the Filter box, it'll show following boolean key:
+
+    browser.showQuitWarning
+
+   * The entry "browser.showQuitWarning" would be set to false. Double-click on it or right-click on it and select toggle. It'll set its value to true.
+   * Now whenever you close multiple tabs, Firefox will ask you to save the tabs and quit.
+
+
+To turn on Tracking Protection in Firefox:
+
+    Type in about:config in the location bar and hit enter.
+    You will see a warning about possibly voiding your warranty. Hit “I’ll be careful, I promise!” to continue.
+    Search for privacy.trackingprotection.enabled.
+    Double-click that to toggle the value to true.

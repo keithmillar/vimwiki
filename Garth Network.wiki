@@ -1,0 +1,65 @@
+=== Basement ===
+
+==== Hiltron Technology's CGN2-ROG ====
+{{{
+User = cusadmin
+password = pG0Nnyn1DlCW
+IP = 192.168.0.1
+Wifi is turned off on this router
+
+1 unmanaged switch connected to Rogers Router
+}}}
+==== Netgear Router ====
+{{{
+Router Name = R6250
+User = admin
+Password = nuevoleon
+IP = 192.168.0.10
+
+SSID = Challenge2014
+Password = coahuila1123
+
+SSID = Challange2014-5G
+Password = coahuila1123
+}}}
+=== Second Floor ===
+
+==== Netgear Router ====
+{{{
+Router Name = R6300v2
+User = admin
+Password = nuevoleon
+IP = 192.168.0.14
+
+Guest Network
+SSID = SeelyStreetGuest
+Password = RockwoodPark
+
+SSID = SeelyStreetGuest-5G
+Password = RockwoodPark
+
+This Router is connected via cable to the unmanaged switch
+The Guest Network can only be accessed from the Challenge2014 network
+WAN/LAN  scroll down for connected computers
+}}}
+=== Printer ===
+{{{
+HP Officejet 4630
+HP Wireless Direct Settings = Dissabled
+}}}
+=== Orignal Router Settings ===
+
+==== Basement ====
+{{{
+Router Name = R6250
+SSID = NETGEAR64
+SSID = NETGEAR64-5g
+passwords = kindsky628
+}}}
+==== Second Floor ====
+{{{
+Router Name = R6300v2
+SSID = NETGEAR06
+SSID = NETGEAR06-5G
+passwords = brightmoon085
+}}}

@@ -1,0 +1,78 @@
+nmcli dev wifi con "Cafe Hotspot 1" password caffeine name "My cafe"
+
+              creates a new connection named "My cafe" and then connects it to "Cafe Hotspot 1" SSID using "caffeine" password. This is mainly
+              useful when connecting to "Cafe Hotspot 1" for the first time. Next time, it is better to use 'nmcli con up id "My cafe"' so that
+              the existing connection profile can be used and no additional is created.
+
+
+EXAMPLES
+
+       nmcli -t -f RUNNING nm
+
+              tells you whether NetworkManager is running or not.
+
+       nmcli -t -f STATE nm
+
+              shows the overall status of NetworkManager.
+
+       nmcli radio wifi off
+
+              switches Wi‐Fi off.
+
+       nmcli -p con list
+
+              lists all connections NetworkManager has.
+
+       nmcli -f name,autoconnect con list
+
+              lists all connections' names and their autoconnect settings.
+
+       nmcli con list id "My wired connection"
+
+              lists all details of the connection with "My wired connection"
+              name.
+
+       nmcli -p con up id "My wired connection" iface eth0
+
+              activates the connection with name "My wired connection" on
+              interface eth0.  The -p option makes nmcli show progress of the
+              activation.
+
+       nmcli con up uuid 6b028a27-6dc9-4411-9886-e9ad1dd43761 ap
+       00:3A:98:7C:42:D3
+
+              connects the Wi‐Fi connection with UUID
+              6b028a27-6dc9-4411-9886-e9ad1dd43761 to the AP with BSSID
+              00:3A:98:7C:42:D3.
+
+       nmcli dev status
+
+              shows the status for all devices.
+
+       nmcli dev disconnect iface em2
+
+              disconnects a connection on interface em2 and marks the device
+              as unavailable for auto‐connecting. That's why no connection
+              will automatically be activated on the device until the device's
+              "autoconnect" is set to TRUE or user manually activates a
+              connection.
+
+       nmcli -f GENERAL,WIFI-PROPERTIES dev list iface wlan0
+
+              lists details for wlan0 interface; only GENERAL and
+
+
+       nmcli dev wifi
+
+              lists available Wi‐Fi access points known to NetworkManager.
+
+       nmcli dev wifi con "Cafe Hotspot 1" password caffeine name "My cafe"
+
+              creates a new connection named "My cafe" and then connects it to
+              "Cafe Hotspot 1" SSID using "caffeine" password. This is mainly
+              useful when connecting to "Cafe Hotspot 1" for the first time.
+              Next time, it is better to use 'nmcli con up id "My cafe"' so
+              that the existing connection profile can be used and no
+              additional is created.
+
+	      

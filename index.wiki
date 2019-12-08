@@ -1,0 +1,77 @@
+===== SIG 6469 =====
+
+===== VFZ 6921 =====
+	* [[Blu]]
+
+===== Shed Build =====
+	* [[Outline]]
+
+==== Bicycle Information ====
+	* [[Bikes Service History]]
+	* [[Routes to Plan and Ride]]
+
+==== ESP8266 ====
+	* [[ide]]
+
+==== Websites ====
+	* [[Basic html Page]]
+	* [[Browser Tabs Background]]
+	* [[Bucks Fizz Logo]]
+	* [[Certs on kzone]]
+	* [[Garth Network]]
+	* [[Fedora not accepting incoming connections]]
+    * [[Netlify]]
+
+==== Misc ====
+	* [[Jekyll]]
+	* [[Reading Search Queries]]
+	* [[Router Settings]]
+	* [[i3 Volume]]
+
+==== Vim ====
+	* [[Commands]]
+	* [[Printing]]
+	* [[Sorting]]
+	* [[Wiki Hacks]]
+	* [[Writing to External Commands]]
+	* [[Custom Header Script]]
+
+==== Music Video ====
+	* [[Kid3-cli]]
+	* [[Music Listings]]
+	* [[Mythtv]]
+	* [[Video Converter]]
+	* [[YouTube-dl]]
+	* [[MPD-MPC]]
+
+==== Unix ====
+	* [[Create bash aliases]]
+	* [[Cron]]
+	* [[Delete files by Date]]
+	* [[Duplicity]]
+	* [[Force Reboot]]
+	* [[Git]]
+	* [[Kernel Upgrade]]
+	* [[Kernel]]
+	* [[mount usb for all users]]
+	* [[Mutt]]
+	* [[Mysql]]
+	* [[pdf to jpg]]
+	* [[rsync backup media]]
+	* [[RVM create gemset per project]]
+	* [[Screen Shot]]
+	* [[Search Menuconfig]]
+	* [[setting time zone]]
+	* [[Symbolic Links]]
+    * [[Text Manipulation]]
+	* [[Tmux]]
+	* [[Unix Calculator]]
+	* [[Write iso to usb]]
+	* [[Clonezilla]]
+
+==== Household ====
+	* [[Front Bed Room]]
+	* [[Front Room]]
+	* [[Hall Stairs & Landing]]
+	* [[Kitchen]]
+	* [[Master Bed Room]]

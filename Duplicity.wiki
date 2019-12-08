@@ -1,0 +1,61 @@
+This will list all files in the backup\home directory
+duplicity --no-encryption list-current-files ftp://ben@192.168.0.19/backup/home
+
+This will find a specific file in the backup\home directory
+duplicity --no-encryption list-current-files ftp://ben@192.168.0.19/backup/home | grep .abook/addressbook
+
+This will restore addressbook file to the MEGA directory
+duplicity --no-encryption --file-to-restore ben/.abook/addressbook ftp://ben@192.168.0.19/backup/home/ ~/MEGA/addressbook
+
+Duplicity is now run from the duplicity-backup directory, it is call by kzone-backup.sh which runs either a full backup or an incremental backup.
+
+If this is successful the remove the original backup dir backup-jobs
+
+
+
+## duplicity-backup.sh
+
+Run an incremental backup:
+
+# duplicity-backup.sh [-c config_file] --backup
+
+Force a one-off full backup:
+
+# duplicity-backup.sh [-c config_file] --full
+
+# Restore your entire backup:
+
+# You will be prompted for a restore directory
+# duplicity-backup.sh [-c config_file] --restore
+#
+# # You can also provide a restore folder on the command line.
+# duplicity-backup.sh [-c config_file] --restore /home/user/restore-folder
+#
+# Restore a specific file or directory in the backup:
+#
+# Note that the commands --restore-file and --restore-dir are equivalent.
+#
+# # You will be prompted for a file to restore to the current directory
+# duplicity-backup.sh [-c config_file] --restore-file
+#
+# # Restores the file img/mom.jpg to the current directory
+# duplicity-backup.sh [-c config_file] --restore-file img/mom.jpg
+#
+# # Restores the file img/mom.jpg to /home/user/i-love-mom.jpg
+# duplicity-backup.sh [-c config_file] --restore-file img/mom.jpg /home/user/i-love-mom.jpg
+#
+# # Restores the directory rel/dir/path to /target/restorepath
+# duplicity-backup.sh [-c config_file] --restore-dir rel/dir/path /target/restorepath
+#
+# List files in the remote archive
+#
+# duplicity-backup.sh [-c config_file] --list-current-files
+#
+# See the collection status (i.e. all the backup sets in the remore archive)
+#
+# duplicity-backup.sh [-c config_file] --collection-status
+#
+# Verify the backup
+#
+# duplicity-backup.sh [-c config_file] --verify
+#

@@ -1,0 +1,15 @@
+
+**Color Schemes**
+you can type :colorscheme <newcolorscheme>. You can use tab to cycle through the installed colorschemes.
+
+**Autocomplete**
+
+CTL-p in insert mode
+
+**Ctrl-P toggles paste mode when in Insert mode do not include the two /**
+
+set pastetoggle=/<C-P/> "Ctrl-P toggles paste mode when in Insert"
+
+:set paste
+
+:set nopaste

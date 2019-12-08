@@ -1,0 +1,41 @@
+** Needs changing before new kernel written in spain 2017-07-08 **
+Messages for package sys-fs/udev-233:
+* CONFIG_FW_LOADER_USER_HELPER:should not be set. But it is.
+* Please check to make sure these options are set correctly.
+
+
+remove support for 64-bit kernel
+
+A preallocated buffer-size of 2048 (kB) or higher is recommended for the HD-audio driver!
+CONFIG_SND_HDA_PREALLOC_SIZE=64
+
+CONFIG_SND_DYNAMIC_MINORS=y
+
+CONFIG_FHANDLE
+
+
+2014-11-07-udev-upgrade
+  Title                     Upgrade to udev >= 217 or eudev >= 2.1
+  Author                    Samuli Suominen <ssuominen@gentoo.org>
+  Posted                    2014-11-07
+  Revision                  1
+
+sys-fs/udev-217 and sys-fs/eudev-2.1 no longer provide a userspace
+firmware loader. If you require firmware loading support, you must use
+kernel 3.7 or greater with CONFIG_FW_LOADER_USER_HELPER=n. No action is
+required if none of your kernel modules need firmware. See [1] for more
+information on the upgrade.
+
+[1] https://wiki.gentoo.org/wiki/Udev/upgrade#udev_216_to_217
+
+
+Hauppauge WinTV-NOVA-T usb2 DVB-T USB2.0 support (NEW)
+
+.config:31:warning: symbol value 'm' invalid for X86_INTEL_PSTATE
+*.config:2289:warning: override: FB_MB862XX_LIME changes choice state
+*.config:2710:warning: symbol value 'm' invalid for AB3100_CORE
+*.config:2719:warning: symbol value 'm' invalid for MFD_WM8400
+*.config:2720:warning: symbol value 'm' invalid for MFD_WM8350_I2C
+*.config:2721:warning: symbol value 'm' invalid for MFD_WM8350
+*.config:2722:warning: symbol value 'm' invalid for MFD_WM831X
+*.config:3368:warning: symbol value 'm' invalid for POWER_SUPPLY

@@ -1,0 +1,10 @@
+**In Visual Mode select the text to be sorted**
+
+**Visual Mode**
+:'<,'>%sort
+
+**Visual Mode Reverse**
+:'<,'>%sort!
+
+**Visual Mode Numeric**
+:'<,'>sort n

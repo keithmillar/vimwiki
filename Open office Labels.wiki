@@ -1,0 +1,5 @@
+Open Office print Labels
+tools > options > open office writer > print
+uncheck print automatically
+insert blank pages
+

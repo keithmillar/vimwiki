@@ -1,0 +1,22 @@
+==== Handbrake ====
+
+Tutorial on how Rip / Copy DVDs in Ubuntu using HandBrake.
+HandBrake is a very fast multithreaded cross•platform Transcoder available for
+Linux, Mac and Windows.
+Its primary purpose isn‘t to Rip DVDs. Its one of the best Transcoders available
+that just happens to be able to copy encrypted DVDs (as long as you have
+decrypting software such as libdvdcss2 installed).
+
+Installation instructions for libdvdcss2 are detailed below.
+
+Ubuntu 10.04, 10.10, 11.04:
+sudo apt•get install ubuntu-restricted-extras libdvdread4
+sudo /usr/share/doc/libdvdread4/install-css.sh
+
+   Windows
+Software that can play DVDs rely on dll files to tell it how to read the
+encrypted disc for playback. In most free software, a common dll file called
+libdvdcss is used. By using libdvdcss combined with HandBrake, we will be able
+to decrypt our DVDs while we transcode, without any additional software.
+and copy the libdvdcss•2.dll file to the HankBrake installation folder Rename
+the file to libdvdcss.dll and restart HandBrake

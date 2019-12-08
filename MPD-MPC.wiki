@@ -1,0 +1,17 @@
+*MPC*
+add <file>  
+    Adds a song from the music database to the playlist. Can also read input from pipes. Use "mpc ls | mpc add" to add all files to the playlist.
+
+MPD
+sudo -u mpd alsamixer -D equal
+
+cd to /var/lib/mpd/music/  
+then create a symbolic link to the media  
+ln -s /media/A6AE-CAD9/ A6AE-CAD9  
+and run mpc update  
+
+More notes in wallabag  
+[How to power a music server with Armbian](https://app.wallabag.it/view/8472240)  
+[Auto-Mounting USB](https://app.wallabag.it/view/8652211)  
+
+**Pi will not boot if dics not present**

@@ -1,0 +1,12 @@
+
+If you are using RHEL/CentOS 7 (the OP was not, but I thought I'd share the solution for my case), then you will need to use firewalld instead of the iptables service mentioned in other answers.
+
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --reload
+
+And then check that it is running with:
+
+firewall-cmd --permanent --zone=public --list-all
+
+It should list 80/tcp under ports
+

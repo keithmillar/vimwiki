@@ -1,0 +1,4 @@
+
+tree --nolinks -H -R -C -T "Record Collection" -- /jump/Music/ > lps.html
+
+ls -R /jump/Music/ > lps.txt

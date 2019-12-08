@@ -1,0 +1,18 @@
+**Save message text to a text file**
+
+The mutt command pipe-message (default shortcut |) can be used for this. It opens a command line and you write cat > DESIRED-FILE-PATH
+
+or press v to view plain text and s to save to a file.
+
+**Deleting Messages**
+
+Change to mailbox then shift+D type search pattern then shift+$ to update mailbox
+
+
+**Mutt Marking all New messages for deletion and clears all flags**
+
+It first selects all messages marked “New” and untags them. Then, it selects all messages marked “Old” but unread and untags them as well. Finally, it marks them all as deleted
+
+macro index <esc>m "T~N<enter>;WNT~O<enter>;WO\CT<enter><tag-prefix>d" "mark all messages read"
+
+<tag-prefix> = ; 

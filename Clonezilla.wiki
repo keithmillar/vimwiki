@@ -1,0 +1,1 @@
+Using ssh the path on the Synology nass is /homes/kzone/clonezilla

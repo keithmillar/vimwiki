@@ -1,0 +1,14 @@
+You may encounter an issue where the Edge 510, 800, 810, or 1000 may freeze or not power down and appear as if it is locked up. Performing the below button sequence while the device is connected to the computer will unlock (or unfreeze) the device.
+
+    Connect device to computer
+    Press and hold LAP/RESET and POWER
+    Release POWER when screen turns off (continue to hold LAP/RESET)
+    Release LAP/RESET when device appears as a drive letter on your computer
+
+Failed Update
+
+If it will mount to the computer look in the following two locations
+Garmin
+Garmin\NewFiles
+
+for GUPDATE.GCD. If this file is in either location then delete it. This is the update file. 

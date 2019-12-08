@@ -1,0 +1,13 @@
+To avoid automounting and auto(un)installing with /boot,
+ * just export the DONT_MOUNT_BOOT variable.
+
+
+ * To avoid automounting and auto(un)installing with /boot,
+ * just export the DONT_MOUNT_BOOT variable.
+
+ * For information on how to configure GRUB2 please refer to the guide:
+ *     http://wiki.gentoo.org/wiki/GRUB2_Quick_Start
+ * A migration guide for GRUB Legacy users is available:
+ *     http://www.gentoo.org/doc/en/grub2-migration.xml
+ * Install sys-boot/os-prober to enable detection of other operating systems using grub2-mkconfig.
+ * Install dev-libs/libisoburn to enable creation of rescue media using grub2-mkrescue.

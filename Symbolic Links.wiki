@@ -1,0 +1,10 @@
+**
+
+ln -s [TARGET DIRECTORY OR FILE] ./[SHORTCUT]
+
+For example 
+
+ln -s /usr/local/apache/logs ./logs
+
+This points a symbolic link "./logs" to "/usr/local/apache/logs" 
+

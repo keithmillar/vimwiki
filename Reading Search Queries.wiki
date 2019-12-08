@@ -1,0 +1,56 @@
+===== What I track about my reading =====
+
+I used to capture all kinds of information about what I read, but I found that I almost never used it. I used to categorize and classify the books, and break them into fiction and nonfiction, and the gender of the author. But I never used it. So I simplified things in the text file. Today, I capture just a few pieces of information:
+
+  *  Title
+  *  Author
+  *  Date completed
+
+I have a few symbols I use after the title which indicate information useful to me:
+
+    * = a book I really liked, and would recommend.
+    @ = audiobook
+    + = e-book
+    ^ = a repeated reading (that is, I have read the book more than once).
+
+This turns out to be enough information, and to satisfy most of the questions I have about my reading list and reading habits.
+
+*All of the books I’ve read in 2014*
+
+At the command line, I simply type:
+
+grep 2014 reading.txt
+
+*The number of books I read in 2014*
+
+Ah, but what if I want to know the number of books I read without needed to see the full list? I can type,
+grep 2014 reading.txt | wc -l
+The wc -l at the end filters the output through the word count (wc) command and gets the number of lines in the results. Since I have one line per book the resulting number is the number of books in the query:
+
+*How many Stephen King books have I read?*
+
+Regular readers know that I am a big fan of Stephen King. So how many times have I read Stephen King?
+
+grep "Stephen King" reading.txt | wc -l
+
+*How many Stephen King books have I read more than once?*
+
+This one is only slightly more complicated. To get the answer, I run this command:
+
+grep "Stephen King" reading.txt | grep -F ^ | wc -l
+
+Which basically says, “Search for the term ‘Stephen King’ in reading.txt, and then take the results and search for the ^ symbol, which is my designator for a re-read, and finally count the resulting lines.
+
+The number of times I’ve re-read Stephen King books is 16.
+
+To see the actual books I’ve re-read, I can just leave off the final line count search, and do this:
+
+grep "Stephen King" reading.txt | grep -F ^
+
+*When was the last time I read an Isaac Asimov book?*
+
+For that I can use the UNIX tail command:
+
+grep "Isaac Asimov" reading.txt | tail -n1
+
+This simply returns all of the lines from my reading list that match “Isaac Asimov” and then looks at just the last line in the results (that’s what the tail -n1 does). The last time I finished an Isaac Asimov book was on April 24, 2012. You can also see what the book was

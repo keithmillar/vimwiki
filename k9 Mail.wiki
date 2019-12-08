@@ -1,0 +1,2 @@
+you can disable k9 with "global settings > network > background sync >
+none", which will affect all accounts.

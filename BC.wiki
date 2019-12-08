@@ -1,0 +1,109 @@
+=== BC CAAD 10 ===
+
+===== Headset Bearings =====
+
+- Top Cane Creek 1-1/8 45% ITA hss71001k  
+- Bottom 4 x 46.9 x 7 45%/45%
+
+{{{
+20/03/2014
+2 new tyres @ 1212
+}}}
+
+{{{
+18/08/2014
+New chain @ 3116
+}}}
+
+{{{
+05/09/14
+Bottom bracket bearings @ 3500
+}}}
+
+{{{
+23/09/2014
+New Front Wheel bearings @ 4000
+}}}
+
+{{{
+03/03/2015
+New Head Set Bearings @ 4485
+}}}
+
+{{{
+31/03/2015
+New BB Bearings @ 4691
+}}}
+
+{{{
+06/04/2015
+New Chain @ 4691
+}}}
+
+{{{
+26/05/15 @ 5650
+Front tyre fitted to rear michelin 25 x 700
+Part worn added to front
+}}}
+
+{{{
+15/06/2015
+New Chain @ 6248
+}}}
+
+{{{
+10/08/2015 @ 7520
+2 Tyres conti race 25 x 700
+Front & Rear Break blocks
+}}}
+
+{{{
+23/09/2015
+New Chain @ 8642
+}}}
+
+{{{
+30/01/2016
+New rear Tyre @ 9700 Michelin Litheon 2.0 25mm
+New front Tyre @ 9700 Maxxis Columbier 23mm
+}}}
+
+{{{
+Rear Wheel rebuilt @ 11765.96
+new spokes and nipples
+h son plus archetype
+}}}
+
+{{{
+New F & R Tyres @ 11898.35 Michelin Litheon 2.0 25mm
+}}}
+
+{{{
+04/03/2017
+New Chain @ 12702
+Rear Cassette replaced with a slightly used one
+}}}
+
+{{{
+2017-06-10
+New Chain @ 14342
+Front Chain Ring
+Rear Cassette 12-25
+}}}
+
+{{{
+2017-06-28
+New BB Bearings @ 14827
+}}}
+
+2017-08-01
+New pedals @ 15464
+
+2017-08-24
+New Rear Tyre @ 16006
+
+2017-09-17
+New BB Bearings @ 16275 SKF
+
+2018-08-03  
+New rear Cassette 12-23 @ 17125

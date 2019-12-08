@@ -1,0 +1,8 @@
+==== Routes to Plan and Ride ====
+
+	- [X] La Portera-Dos Aguas
+	- [ ] Dos Aguas-Millares-Tous
+	- [X] [[Vilamarxant]]
+	- [X] Lliria
+	- [ ] 100 miles
+	- [ ] Mont Ventoux

@@ -1,0 +1,5 @@
+kid3-cli  
+select all  
+remove 2  
+save  
+exit

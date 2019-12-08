@@ -1,0 +1,1 @@
+import -window root -pause 5 screenshot.png

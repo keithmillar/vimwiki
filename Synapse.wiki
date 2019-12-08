@@ -1,0 +1,65 @@
+{{{
+Frame: Synapse Alloy Disc, Optimized 6061 Alloy, SAVE PLUS, BB30
+Fork: Synapse SAVE Disc, Carbon blades, 1-1/8"
+Front Derailleur: Shimano 105 5700, 31.8 clamp
+Rear Derailleur: Shimano 105 5700
+Number of Gears: 20
+Shifters: Shimano 105 5700
+Chainset: FSA Gossamer, BB30
+Chainrings: 50/34T
+Bottom Bracket:	 FSA BB30
+Cassette: Shimano Tiagra 4600, 12-30, 10-speed
+Chain: KMC X10, 10-speed
+Pedals: Not Supplied
+Brakeset: Promax Render R, 160mm front, 140mm rear
+Brake Levers: Shimano 105 5700
+Handlebars: Cannondale C3 Compact
+Stem: Cannondale C3, 1.5", 31.8, 5 deg
+Headset: Synapse Si, 25mm top cap
+Grips: Cannondale Bar Tape w/Gel, 3.5mm
+Rims: Maddux RD 3.0 Disc, 28-hole (32h 58 -61cm)
+Front Hub: Formula, DC-20 front, DC-22 rear
+Rear Hub: Formula, DC-20 front, DC-22 rear
+Spokes: Stainless Steel, 15g
+Front Tyre: Schwalbe Lugano PP, 700×25c
+Rear Tyre: Schwalbe Lugano PP, 700×25c
+Saddle: Cannondale Stage Ergo w/ Crmo Rails
+Seatpost: Cannondale C3, Alloy, 25.4×300mm
+Weight: Not Specified
+}}}
+
+==== Parts ====
+TRP Spyre disk brakes pad type Shimano M525/m515
+-------
+{{{
+30-01-2015  
+New Chain @ 1926  
+Front Tyre (failed due to kink)  
+
+29-03-2015
+New Wheels @ 3360 miles
+Rims H Plus Son Archetype 3 2hole £99 Wiggle
+Hubs Hope Evo Pro 2 £198.48 CRC
+Spokes 64 £32.80 The Cycle Clinic
+Total Cost £330.28
+
+10-03-2015
+Rear Hub Bearing (6903) @ 3761 inner
+
+19-10-2016 
+BB30 Bearings replaced @ 4877 (Enduro Bearings)
+
+15-02-2017
+Rear Hub Bearing (6903) @ 6000  outer
+
+16-02-2017
+New Chain @ 6107
+
+2017-11-28
+BB Bearings replaced @ 7144 (Part used enduro)
+Rear Tyre Replaced
+
+2018-01-19
+New Chain
+New Jockey Wheels @7713.91
+}}}

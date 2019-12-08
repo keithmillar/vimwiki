@@ -1,0 +1,7 @@
+convert -density 300 -trim test.pdf -quality 100 test.jpg
+
+Convert from jpg to pdf
+If you have images of different sizes, adding the option "-define pdf:use-trimbox=true" seems to allow the pages within the pdf to be different sizes too. I had some pictures in landscape and some in portrait and wanted to maintain that without distortion in my pdf, so this did the trick:
+
+convert -define pdf:use-trimbox=true *.JPG new_pdf.pdf
+

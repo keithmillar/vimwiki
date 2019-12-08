@@ -1,0 +1,6 @@
+
+sudo mount /dev/sdc /home/ben/media -o umask=000
+
+or
+
+mount -t vfat -ouser,umask=0000 /dev/sdc1 /media/usb/

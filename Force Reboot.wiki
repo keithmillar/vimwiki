@@ -1,0 +1,9 @@
+To enable the use of  the magic SysRq option type the following at the command prompt:
+
+echo 1 > /proc/sys/kernel/sysrq
+
+Then to reboot the machine simply enter the following:
+
+echo b > /proc/sysrq-trigger
+
+[magic SysRq](https://www.recitalsoftware.com/blogs/17-howto-force-a-immediate-reboot-of-a-remote-linux-machine)

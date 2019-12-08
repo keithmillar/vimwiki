@@ -1,0 +1,8 @@
+After an update stop xserver
+rmmod nvidia
+rmmod drm
+
+modprobe nvidia
+modprobe drm
+
+restart xserver
