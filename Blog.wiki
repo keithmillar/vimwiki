@@ -1,0 +1,9 @@
+==== [[https://blog.keithmillar.co.uk|blog.keithmillar.co.uk]] ====
+
+hosted on [[https://github.com|github]] at [[https://keithmillar.github.io|https://keithmillar.github.io]]
+
+the sub domain [[https://blog.keithmillar.co.uk|blog.]] is at [[https://www.mythic-beasts.com/|mythic-beasts.com]]
+with a lets encrypt cert updated with a script from
+[[https://www.mythic-beasts.com/|mythic-beasts.com]] run on eris laptop
+
+

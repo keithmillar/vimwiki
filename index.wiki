@@ -22,6 +22,9 @@
 	* [[Fedora not accepting incoming connections]]
     * [[Netlify]]
     * [[Web Hosting]]
+    * [[VimWiki Hosting]]
+    * [[Blog]]
+    * [[Flofood]]
 
 ==== Misc ====
 	* [[Jekyll]]

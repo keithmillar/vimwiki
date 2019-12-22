@@ -1,0 +1,15 @@
+==== [[https://scrum.florencemillar.co.uk|scrum.florencemillar.co.uk]] ====
+
+Domain [[https://florencemillar.co.uk|florencemillar.co.uk]] is at [[https://fasthosts.co.uk|fasthosts]] and the dns is pointed to
+[[https://florencemillar.co.uk|wordpress]] and the scrum. subdomain is set
+there. *dns is managed at the wordpress site*
+
+The files are hosted on [[https://github.com|github]] in one repo
+[[https://flofood.github.io|flofood.github.io]]
+
+The [[https://github.com|github]] account is linked to netlify for login.
+
+[[https://focused-edison-4f80e0.netlify.com/|focused-edison-4f80e0.netlify.com]]
+points to [[https://scrum.florencemillar.co.uk/|scrum.florencemillar.co.uk/]]
+
+This site is build with jekyll some deploy settings are different.
