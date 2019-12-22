@@ -1,0 +1,40 @@
+==== Seely Street ====
+
+[[http://seelystreet.com|seelystreet.com]] Domain is on
+[[https://fasthosts.co.uk|fasthosts]] The DNS records here point to [[https://app.netlify.com|Netlify]] which resolves
+[[https://lucid-goldwasser-c97dbd.netlify.com|lucid-goldwasser-c97dbd.netlify.com]]
+to [[https://seelystreet.com|seelystreet.com]] the github account seelystreet
+has two repos one seelystreet and the other
+[[seelystreet.github.io|seelystreet.github.io]] this is a submodule which is
+required for hugo to build and deploy the site. However in this case netlify
+takes care of building and deploying.
+
+Log into Netlify using github the email for both is computer@fastmail.com
+
+{{{
+DNS records
+
+    fm1._domainkey.seelystreet.com 3600 IN CNAME fm1.seelystreet.com.dkim.fmhosted.com
+
+    fm2._domainkey.seelystreet.com 3600 IN CNAME fm2.seelystreet.com.dkim.fmhosted.com
+
+    fm3._domainkey.seelystreet.com 3600 IN CNAME fm3.seelystreet.com.dkim.fmhosted.com
+
+    seelystreet.com 3600 IN MX 10 in1-smtp.messagingengine.com
+
+    seelystreet.com 3600 IN MX 20 in2-smtp.messagingengine.com
+
+    seelystreet.com 3600 IN NETLIFY lucid-goldwasser-c97dbd.netlify.com
+
+    www.seelystreet.com 3600 IN NETLIFY lucid-goldwasser-c97dbd.netlify.com
+
+    seelystreet.com 3600 IN TXT v=spf1 include:spf.messagingengine.com ?all
+}}}
+
+==== Fastmail ====
+
+Fastmail needs the seelystreet.com domain added to the dns section and it
+should pickup the MX records from netlify.
+
+An Alias needs adding which will be garth@seelystreet.com pointing to
+garth39fastmail.com
