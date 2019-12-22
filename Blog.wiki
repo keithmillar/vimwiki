@@ -4,6 +4,4 @@ hosted on [[https://github.com|github]] at [[https://keithmillar.github.io|https
 
 the sub domain [[https://blog.keithmillar.co.uk|blog.]] is at [[https://www.mythic-beasts.com/|mythic-beasts.com]]
 with a lets encrypt cert updated with a script from
-[[https://www.mythic-beasts.com/|mythic-beasts.com]] run on eris laptop
-
-
+ [[https://www.mythic-beasts.com/support/domains/letsencrypt_dns_01|letsencrypt_dns_01]] run on eris laptop dehydrated -c
