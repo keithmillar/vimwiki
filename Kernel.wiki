@@ -38,4 +38,19 @@ Hauppauge WinTV-NOVA-T usb2 DVB-T USB2.0 support (NEW)
 *.config:2720:warning: symbol value 'm' invalid for MFD_WM8350_I2C
 *.config:2721:warning: symbol value 'm' invalid for MFD_WM8350
 *.config:2722:warning: symbol value 'm' invalid for MFD_WM831X
-*.config:3368:warning: symbol value 'm' invalid for POWER_SUPPLY
+*.config:3368:warning: symbol value 'm' invalid for POWER_SUPPL
+
+
+Messages for package sys-kernel/genkernel-4.0.1:
+
+ *
+ * * Genkernel v4.x is a new major release which touches
+ *  * nearly everything. Be careful, read updated manpage
+ *   * and pay special attention to program output regarding
+ *    * changed kernel command-line parameters!
+ *     *
+ *      * Default kernel filename was changed from "kernel-genkernel-<ARCH>-<KV>"
+ *       * to "vmlinuz-<KV>". Please be aware that due to lexical ordering the
+ *        * *default* boot entry in your boot manager could still point to last kernel
+ *         * built with genkernel before that name change, resulting in booting old
+ *          * kernel when not paying attention on boot.

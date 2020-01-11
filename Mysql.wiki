@@ -1,5 +1,5 @@
 
-### To delete unwanted hosts from mythconverge database
+==== To delete unwanted hosts from mythconverge database ====
 
 mysql> SELECT DISTINCT `hostname` FROM `settings`;
 
@@ -11,7 +11,7 @@ will delete all settings for the machine using the chosen identifier.
 
 
 
-### Purge mysql-bin log files
+==== Purge mysql-bin log files ====
 
 You can either prune by date or by file. For simplicity, I pruned by file. I connected to mysql and ran the following command:
 
@@ -20,3 +20,11 @@ PURGE BINARY LOGS TO 'mysqld-bin.000044';
 But you could prune by date:
 
 PURGE BINARY LOGS BEFORE '2013-08-24 00:06:00';
+
+==== Password changes ====
+
+To update the root user
+mysqladmin -u root -p'oldpassword' password newpass
+
+To update a normal user
+mysqladmin -u username -p'old-password' password new-password
