@@ -48,6 +48,9 @@
 	* [[YouTube-dl]]
 	* [[MPD-MPC]]
 
+==== Raspberry Pi ====
+    * [[Wifi]]
+
 ==== Unix ====
 	* [[Create bash aliases]]
 	* [[Cron]]

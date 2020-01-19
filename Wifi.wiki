@@ -1,0 +1,5 @@
+==== To disable/enable wifi ====
+
+sudo iwconfig wlan0 txpower off
+
+sudo iwconfig wlan0 txpower on
