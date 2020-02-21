@@ -1,0 +1,2 @@
+==== change public ip / domain name ====
+etc/openvpn/easy-rsa/pki/Default.txt

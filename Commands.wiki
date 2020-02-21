@@ -13,3 +13,12 @@ set pastetoggle=/<C-P/> "Ctrl-P toggles paste mode when in Insert"
 :set paste
 
 :set nopaste
+
+==== Removing lines ====
+If something has double linespaced your text then this command will remove the double spacing and merge pre-existing repeating blank lines into a single blank line. It uses a temporary delimiter of ^^^ at the start of a line so if this clashes with your content choose something else. Lines containing only whitespace are treated as blank.
+
+%s/^\s*\n\n\+/^^^\r/g | g/^\s*$/d | %s/^^^^.*
+
+
+
+
