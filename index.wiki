@@ -25,6 +25,7 @@
     * [[VimWiki Hosting]]
     * [[Blog]]
     * [[Flofood]]
+    * [[Images]]
 
 ==== Misc ====
 	* [[Jekyll]]
