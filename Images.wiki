@@ -1,3 +1,7 @@
 ==== Rotate an Image using imagemagic ====
 
 convert input.jpg -rotate 90 output.jpg
+
+Also can be used to change from format to another
+
+convert input.png output.jpg
