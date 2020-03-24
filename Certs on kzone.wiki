@@ -22,4 +22,8 @@ Router ports need to be opened for this IP address
 
 certbot renew --apache --dry-run  (if this works then run without --dry-run)
 
+==== Mythic Beasts ====
 
+Just run dehydrated -c
+
+[[https://www.mythic-beasts.com/support/domains/letsencrypt_dns_01]]
