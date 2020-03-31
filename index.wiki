@@ -25,13 +25,15 @@
     * [[VimWiki Hosting]]
     * [[Blog]]
     * [[Flofood]]
-    * [[Images]]
+    * Images
 
 ==== Misc ====
 	* [[Jekyll]]
 	* [[Reading Search Queries]]
 	* [[Router Settings]]
+  - [[NetworkManager]]
 	* [[i3 Volume]]
+  - [[House Hunting]]
 
 ==== Vim ====
 	* [[Commands]]
@@ -40,6 +42,7 @@
 	* [[Wiki Hacks]]
 	* [[Writing to External Commands]]
 	* [[Custom Header Script]]
+  - [[VimFx]]
 
 ==== Music Video ====
 	* [[Kid3-cli]]
@@ -48,6 +51,7 @@
 	* [[Video Converter]]
 	* [[YouTube-dl]]
 	* [[MPD-MPC]]
+  - [[Handbrake]]
 
 ==== Raspberry Pi ====
     * [[Wifi]]
@@ -62,18 +66,25 @@
 	* [[Git]]
 	* [[Kernel Upgrade]]
 	* [[Kernel]]
+  - [[Grub]]
 	* [[mount usb for all users]]
 	* [[Mutt]]
+  - [[k9 Mail]]
 	* [[Mysql]]
 	* [[pdf to jpg]]
 	* [[rsync backup media]]
 	* [[RVM create gemset per project]]
 	* [[Screen Shot]]
+  - [[ScreenShot]]
 	* [[Search Menuconfig]]
 	* [[setting time zone]]
 	* [[Symbolic Links]]
     * [[Text Manipulation]]
+  - [[Remove CTL-M]]
+  - [[Remove spaces in file names]]
+  - [[Adding a line of text to multiple files]]
 	* [[Tmux]]
+  - [[Tmux Resurrect]]
 	* [[Unix Calculator]]
 	* [[Write iso to usb]]
 	* [[Clonezilla]]
@@ -84,3 +95,8 @@
 	* [[Hall Stairs & Landing]]
 	* [[Kitchen]]
 	* [[Master Bed Room]]
+= Generated Links =
+  - [[Elantech Touchpad]]
+  - [[Nvidia]]
+  - [[Open office Labels]]
+  - [[Python]]
