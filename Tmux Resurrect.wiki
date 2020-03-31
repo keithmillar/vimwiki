@@ -1,4 +1,0 @@
-
-    prefix + Ctrl-s - save
-    prefix + Ctrl-r - restore
-

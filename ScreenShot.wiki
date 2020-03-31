@@ -1,1 +1,7 @@
+
 import -window root -pause 5 screenshot.png
+
+sleep 3s; import -window root screenshot.png
+The above waits 3 seconds before taking the screenshot and saves it in PNG format
+
+

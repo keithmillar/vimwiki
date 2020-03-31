@@ -31,9 +31,9 @@
 	* [[Jekyll]]
 	* [[Reading Search Queries]]
 	* [[Router Settings]]
-  - [[NetworkManager]]
+    - [[NetworkManager]]
 	* [[i3 Volume]]
-  - [[House Hunting]]
+    - [[House Hunting]]
 
 ==== Vim ====
 	* [[Commands]]
@@ -42,7 +42,6 @@
 	* [[Wiki Hacks]]
 	* [[Writing to External Commands]]
 	* [[Custom Header Script]]
-  - [[VimFx]]
 
 ==== Music Video ====
 	* [[Kid3-cli]]
@@ -51,7 +50,7 @@
 	* [[Video Converter]]
 	* [[YouTube-dl]]
 	* [[MPD-MPC]]
-  - [[Handbrake]]
+    - [[Handbrake]]
 
 ==== Raspberry Pi ====
     * [[Wifi]]
@@ -66,28 +65,25 @@
 	* [[Git]]
 	* [[Kernel Upgrade]]
 	* [[Kernel]]
-  - [[Grub]]
+    - [[Grub]]
 	* [[mount usb for all users]]
 	* [[Mutt]]
-  - [[k9 Mail]]
+    - [[k9 Mail]]
 	* [[Mysql]]
 	* [[pdf to jpg]]
 	* [[rsync backup media]]
 	* [[RVM create gemset per project]]
-	* [[Screen Shot]]
-  - [[ScreenShot]]
+    - [[ScreenShot]]
 	* [[Search Menuconfig]]
 	* [[setting time zone]]
 	* [[Symbolic Links]]
     * [[Text Manipulation]]
-  - [[Remove CTL-M]]
-  - [[Remove spaces in file names]]
-  - [[Adding a line of text to multiple files]]
+    - [[Adding a line of text to multiple files]]
 	* [[Tmux]]
-  - [[Tmux Resurrect]]
 	* [[Unix Calculator]]
 	* [[Write iso to usb]]
 	* [[Clonezilla]]
+    - [[Nvidia]]
 
 ==== Household ====
 	* [[Front Bed Room]]
@@ -95,8 +91,3 @@
 	* [[Hall Stairs & Landing]]
 	* [[Kitchen]]
 	* [[Master Bed Room]]
-= Generated Links =
-  - [[Elantech Touchpad]]
-  - [[Nvidia]]
-  - [[Open office Labels]]
-  - [[Python]]

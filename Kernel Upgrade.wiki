@@ -1,12 +1,4 @@
----
 date: 2012-01-18
-layout: post
-title: "Kernel Upgrade"
-category: tech 
-tags:
-- linux
-- gentoo
----
 
 emerge -P gentoo-sources to remove oldest kernel before installing latest
 kernel
