@@ -5,3 +5,16 @@ convert input.jpg -rotate 90 output.jpg
 Also can be used to change from format to another
 
 convert input.png output.jpg
+
+==== Image captions ====
+
+For image captions, I settled on a beautifully simple solution posted by Andrew Wei on Stack Overflow:
+
+![](path_to_image)
+*image_caption*
+
+This takes advantage of the fact that you can create CSS for combinations of HTML elements. In this case, I can use
+
+img + em { display: block; text-align: center;}
+
+To target the *image_caption* text only and center it under images, which are also centered on this site by default. It works perfectly, and this isn't even Jekyll-specific. Anyone publishing in Markdown could do this.

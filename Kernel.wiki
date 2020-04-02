@@ -3,7 +3,6 @@ Messages for package sys-fs/udev-233:
 * CONFIG_FW_LOADER_USER_HELPER:should not be set. But it is.
 * Please check to make sure these options are set correctly.
 
-
 remove support for 64-bit kernel
 
 A preallocated buffer-size of 2048 (kB) or higher is recommended for the HD-audio driver!
@@ -12,7 +11,6 @@ CONFIG_SND_HDA_PREALLOC_SIZE=64
 CONFIG_SND_DYNAMIC_MINORS=y
 
 CONFIG_FHANDLE
-
 
 2014-11-07-udev-upgrade
   Title                     Upgrade to udev >= 217 or eudev >= 2.1
@@ -40,17 +38,22 @@ Hauppauge WinTV-NOVA-T usb2 DVB-T USB2.0 support (NEW)
 *.config:2722:warning: symbol value 'm' invalid for MFD_WM831X
 *.config:3368:warning: symbol value 'm' invalid for POWER_SUPPL
 
-
 Messages for package sys-kernel/genkernel-4.0.1:
 
- *
- * * Genkernel v4.x is a new major release which touches
- *  * nearly everything. Be careful, read updated manpage
- *   * and pay special attention to program output regarding
- *    * changed kernel command-line parameters!
- *     *
- *      * Default kernel filename was changed from "kernel-genkernel-<ARCH>-<KV>"
- *       * to "vmlinuz-<KV>". Please be aware that due to lexical ordering the
- *        * *default* boot entry in your boot manager could still point to last kernel
- *         * built with genkernel before that name change, resulting in booting old
- *          * kernel when not paying attention on boot.
+* Genkernel v4.x is a new major release which touches
+* nearly everything. Be careful, read updated manpage
+* and pay special attention to program output regarding
+* changed kernel command-line parameters!
+*
+* Default kernel filename was changed from "kernel-genkernel-<ARCH>-<KV>"
+* to "vmlinuz-<KV>". Please be aware that due to lexical ordering the
+* *default* boot entry in your boot manager could still point to last kernel
+* built with genkernel before that name change, resulting in booting old
+* kernel when not paying attention on boot.
+
+==== Search Menu Config ====
+
+/search string
+The neat thing is you don’t have to remember or note the path, as you can just press the number between parenthesis on the left of the option location, in this case (1), and it will take you directly there.
+
+Read more: http://www.cnx-software.com/2013/05/23/how-to-find-configuration-options-quickly-in-make-menuconfig/#ixzz3DegzZrjY

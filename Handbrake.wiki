@@ -20,3 +20,6 @@ libdvdcss is used. By using libdvdcss combined with HandBrake, we will be able
 to decrypt our DVDs while we transcode, without any additional software.
 and copy the libdvdcss•2.dll file to the HankBrake installation folder Rename
 the file to libdvdcss.dll and restart HandBrake
+
+==== copy from one container to another ====
+ffmpeg -i input.m4v -vcodec copy -acodec copy out.mkv

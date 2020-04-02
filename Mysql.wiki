@@ -1,16 +1,3 @@
-
-==== To delete unwanted hosts from mythconverge database ====
-
-mysql> SELECT DISTINCT `hostname` FROM `settings`;
-
-will show you the various hostnames/identifiers with settings.
-
-mysql> DELETE FROM `settings` WHERE `hostname` = 'identifier';
-
-will delete all settings for the machine using the chosen identifier.
-
-
-
 ==== Purge mysql-bin log files ====
 
 You can either prune by date or by file. For simplicity, I pruned by file. I connected to mysql and ran the following command:

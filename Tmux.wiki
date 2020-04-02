@@ -1,5 +1,4 @@
-
-Server-side configuration:
+==== Server-side configuration: ====
 
 To automatically start tmux on your remote server when ordinarily logging in via SSH (and only SSH), edit the ~./bashrc of your user or root (or both) on the remote server accordingly:
 
@@ -8,7 +7,7 @@ To automatically start tmux on your remote server when ordinarily logging in via
     fi
 
 This command creates a tmux session called ssh_tmux if none exists, or reattaches to a already existing session with that name. In case your connection dropped or when you forgot a session weeks ago, every SSH login automatically brings you back to the tmux-ssh session you left behind.
-    Connect from your client:
+Connect from your client:
 
-    Nothing special, just ssh user@hostname.
+Nothing special, just ssh user@hostname.
 

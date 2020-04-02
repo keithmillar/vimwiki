@@ -1,4 +1,0 @@
-/search string
-The neat thing is you don’t have to remember or note the path, as you can just press the number between parenthesis on the left of the option location, in this case (1), and it will take you directly there.
-
-Read more: http://www.cnx-software.com/2013/05/23/how-to-find-configuration-options-quickly-in-make-menuconfig/#ixzz3DegzZrjY

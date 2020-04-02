@@ -1,3 +1,4 @@
+<div class=date-stamp>Last Updated On 2020-04-02 Thu 20:48</div>
 ===== SIG 6469 =====
 
 ===== VFZ 6921 =====
@@ -10,13 +11,8 @@
 	* [[Bikes Service History]]
 	* [[Routes to Plan and Ride]]
 
-==== ESP8266 ====
-	* [[ide]]
-
 ==== Websites ====
 	* [[Basic html Page]]
-	* [[Browser Tabs Background]]
-	* [[Bucks Fizz Logo]]
 	* [[Certs on kzone]]
 	* [[Garth Network]]
 	* [[Fedora not accepting incoming connections]]
@@ -25,29 +21,23 @@
     * [[VimWiki Hosting]]
     * [[Blog]]
     * [[Flofood]]
-    * Images
+    * [[Images]]
 
 ==== Misc ====
-	* [[Jekyll]]
 	* [[Reading Search Queries]]
 	* [[Router Settings]]
     - [[NetworkManager]]
 	* [[i3 Volume]]
-    - [[House Hunting]]
 
 ==== Vim ====
 	* [[Commands]]
-	* [[Printing]]
 	* [[Sorting]]
 	* [[Wiki Hacks]]
-	* [[Writing to External Commands]]
 	* [[Custom Header Script]]
 
 ==== Music Video ====
-	* [[Kid3-cli]]
 	* [[Music Listings]]
 	* [[Mythtv]]
-	* [[Video Converter]]
 	* [[YouTube-dl]]
 	* [[MPD-MPC]]
     - [[Handbrake]]
@@ -55,9 +45,9 @@
 ==== Raspberry Pi ====
     * [[Wifi]]
     * [[OpenVPN]]
+	* [[ESP8266-ide]]
 
 ==== Unix ====
-	* [[Create bash aliases]]
 	* [[Cron]]
 	* [[Delete files by Date]]
 	* [[Duplicity]]
@@ -65,7 +55,6 @@
 	* [[Git]]
 	* [[Kernel Upgrade]]
 	* [[Kernel]]
-    - [[Grub]]
 	* [[mount usb for all users]]
 	* [[Mutt]]
     - [[k9 Mail]]
@@ -74,15 +63,12 @@
 	* [[rsync backup media]]
 	* [[RVM create gemset per project]]
     - [[ScreenShot]]
-	* [[Search Menuconfig]]
 	* [[setting time zone]]
 	* [[Symbolic Links]]
     * [[Text Manipulation]]
-    - [[Adding a line of text to multiple files]]
 	* [[Tmux]]
-	* [[Unix Calculator]]
 	* [[Write iso to usb]]
-	* [[Clonezilla]]
+	* [[Clonezill-NAS]]
     - [[Nvidia]]
 
 ==== Household ====
@@ -91,3 +77,4 @@
 	* [[Hall Stairs & Landing]]
 	* [[Kitchen]]
 	* [[Master Bed Room]]
+    - [[House Hunting]]
