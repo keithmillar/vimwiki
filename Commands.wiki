@@ -36,3 +36,13 @@ To print to a PDF file from Vim:
 
 	To print to a PS file from Vim:
 	:hardcopy > out.ps
+	
+==== Date Stamp ====
+
+nmap <F3> i<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
+
+imap <F3> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
+
+Now you can just press F3 any time inside Vi/Vim and you'll get a timestamp like 2016-01-25 Mo 12:44 inserted at the cursor.
+
+For a complete description of the available parameters check the documentation of the C function [[http://www.cplusplus.com/reference/ctime/strftime/|strftime]]
