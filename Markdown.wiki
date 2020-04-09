@@ -1,0 +1,19 @@
+==== Convert Markdown to Html ====
+
+
+First, we need to [[https://daringfireball.net/projects/downloads/Markdown_1.0.1.zip|download Markdown]] and place it within our runtime folder. On the Mac, you can drag the Markdown.pl file into your usr/local/bin/ folder. And that's it; you're all set! Next, to trigger the markdown-to-html conversion, we need to provide two parameters: the path to the Markdown.pl file, and the command itself.
+
+Within Vim, the following should do the trick:
+
+* 1. :%! /usr/local/bin/Markdown.pl --html4tags
+	
+This instructs the Markdown.pl file to run on the curent page. But, that's a little too much typing; let's instead save this to our .vimrc file, and assign it to a shortcut.
+	
+* 1. ".vimrc file
+* 2.
+* 3. "Markdown to HTML
+* 4. nmap <leader>md :%!/usr/local/bin/Markdown.pl --html4tags <cr>
+		
+With this line of code, whenever we type - by default - backslash + md, that command will run, thus converting our markdown to clean HTML
+		 
+		 

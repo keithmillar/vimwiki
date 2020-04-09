@@ -34,6 +34,7 @@
 	* [[Sorting]]
 	* [[Wiki Hacks]]
 	* [[Custom Header Script]]
+	* [[Markdown]]
 
 ==== Music Video ====
 	* [[Music Listings]]
