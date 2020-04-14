@@ -1,0 +1,13 @@
+==== Caddy Web Server ====
+
+After creating a systemd service run the following
+
+sudo systemctl daemon-reload
+
+Then these commands as necessary:
+ * sudo systemctl enable caddy
+ * sudo systemctl start caddy
+ * sudo systemctl stop caddy
+ * sudo systemctl reload caddy (after a config change saves restarting)
+
+The Caddyfile is in /etc/caddy
