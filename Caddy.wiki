@@ -11,3 +11,11 @@ Then these commands as necessary:
  * sudo systemctl reload caddy (after a config change saves restarting)
 
 The Caddyfile is in /etc/caddy
+
+==== php ====
+
+sudo systemctl start php-fpm.service
+
+The Caddyfile needs this line
+
+php_fastcgi unix//run/php-fpm/www.sock
