@@ -8,3 +8,9 @@
 
 **Visual Mode Numeric**
 :'<,'>sort n
+
+==== json formatting ====
+
+use this Vim command to format the contents of a JSON file:
+
+:%!python -m json.tool
