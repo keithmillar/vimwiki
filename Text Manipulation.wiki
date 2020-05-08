@@ -41,3 +41,12 @@ I have a bunch of files in a directory, and I need to insert a line of text into
  And I'd like to insert author: Flo before the tags:
 
  for i in ; do sed -i 's/tags:/author: Flo\ntags:/' "i"; done
+
+ ==== vim add charcter to end of line ====
+
+ :%norm A*
+
+This is what it means:
+ %       = for every line
+ norm    = type the following commands
+ A*      = append '*' to the end of current line

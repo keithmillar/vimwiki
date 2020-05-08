@@ -46,3 +46,12 @@ imap <F3> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
 Now you can just press F3 any time inside Vi/Vim and you'll get a timestamp like 2016-01-25 Mo 12:44 inserted at the cursor.
 
 For a complete description of the available parameters check the documentation of the C function [[http://www.cplusplus.com/reference/ctime/strftime/|strftime]]
+
+==== vim add charcter to end of line ====
+
+ :%norm A*
+
+This is what it means:
+ %       = for every line
+ norm    = type the following commands
+ A*      = append '*' to the end of current line
