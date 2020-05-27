@@ -71,7 +71,7 @@
 	* [[Tmux]]
 	* [[Write iso to usb]]
 	* [[Clonezill-NAS]]
-    - [[Nvidia]]
+    * [[Nvidia]]
 
 ==== Household ====
 	* [[Front Bed Room]]
