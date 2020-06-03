@@ -134,7 +134,6 @@
   * [[2014-03-28]]
   * [[2014-03-24]]
 
-= Generated Links =
   - [[../Adding a line of text to multiple files]]
   - [[../BC]]
   - [[../BH]]
