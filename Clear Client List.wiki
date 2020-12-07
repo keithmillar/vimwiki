@@ -1,0 +1,7 @@
+Stop this process “gltertf”
+
+Then remove the following two files
+/tmp/tertf/tertfinfo_bak
+/etc/tertf/tertfinfo_bak
+
+And restart your the glterf process or reboot.

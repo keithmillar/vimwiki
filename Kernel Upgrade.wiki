@@ -21,7 +21,8 @@ emerge -av gentoo-sources to install latest kernel
 
 genkernel --menuconfig --bootloader=grub all
 
-module-rebuild rebuild
+emerge -av @module-rebuild
+old module-rebuild rebuild
 
 check grub for correct syntax
 
