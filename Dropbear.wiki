@@ -1,0 +1,4 @@
+==== Dropbear ==== 
+
+Runs on port 33
+config file location /etc/conf.d/dropbear
