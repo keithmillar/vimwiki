@@ -1,0 +1,3 @@
+vboxmanage modifyvm jekyll-server --macaddress1 080027F00457
+
+vboxmanage showvminfo jekyll-server | grep NIC

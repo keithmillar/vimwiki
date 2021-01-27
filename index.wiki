@@ -46,6 +46,7 @@
 
 ==== Slate Router ====
   * [[Clear Client List]]
+  * [[Virtualbox Mac Address]]
 
 ==== Raspberry Pi ====
   * [[Wifi]]
