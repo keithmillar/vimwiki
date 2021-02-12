@@ -62,3 +62,5 @@ ctl.!default {
 }
 }}}
 
+**To start PulseAudio on boot**
+echo 'pulseaudio --start' >> ~/.profile
