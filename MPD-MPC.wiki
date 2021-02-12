@@ -37,3 +37,28 @@ audio_output {
 }
 }}}
 
+edit .asoundrci (This may not be required)
+{{{
+pcm.!default {
+  type asym
+  playback.pcm {
+    type plug
+    slave.pcm "output"
+  }
+  capture.pcm {
+    type plug
+    slave.pcm "input"
+  }
+}
+
+pcm.output {
+  type hw
+  card 0
+}
+
+ctl.!default {
+  type hw
+  card 0
+}
+}}}
+
