@@ -64,3 +64,8 @@ ctl.!default {
 
 **To start PulseAudio on boot**
 echo 'pulseaudio --start' >> ~/.profile
+
+https://mathieu-requillart.medium.com/
+https://wiki.archlinux.org/index.php/Music_Player_Daemon/Tips_and_tricks#PulseAudio
+https://gist.github.com/awidegreen/6003640
+
