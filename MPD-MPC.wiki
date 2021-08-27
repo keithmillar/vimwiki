@@ -68,6 +68,9 @@ echo 'pulseaudio --start' >> ~/.profile
 or add ot users cron
 @reboot /usr/bin/pulseaudio --start --verbose
 
+*Pulsemixer to increase sound
+sudo -u pi pulsemixer
+
 [[https://mathieu-requillart.medium.com]]
 [[https://wiki.archlinux.org/index.php/Music_Player_Daemon/Tips_and_tricks#PulseAudio]]
 [[https://gist.github.com/awidegreen/6003640]]
