@@ -15,27 +15,6 @@ More notes in wallabag
 [Auto-Mounting USB](https://app.wallabag.it/view/8652211)  
 
 **Pi will not boot if dics not present**
-**2021 update**
-install
-sudo apt-get install pulseaudio pulseaudio-equalizer pulseaudio-utils pulsemixer
-
-edit /etc/pulse/default.pa and uncomment the TCP module and set 127.0.0.1 as an allowed IP address like this:   
-{{{
-### Network access (may be configured with paprefs, so leave this commented  
-### here if you plan to use paprefs)  
-#load-module module-esound-protocol-tcp  
-load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1  
-#load-module module-zeroconf-publish  
-}}}
-
-Next, edit /etc/mpd.conf and add a new pulse output pointing to 127.0.0.1 as a "remote" server:  
-{{{
-audio_output {
-       type		"pulse"
-       name		"Local Music Player Daemon"
-       server		"127.0.0.1"
-}
-}}}
 
 edit .asoundrci (This may not be required)
 {{{
