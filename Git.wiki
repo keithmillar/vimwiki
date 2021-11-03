@@ -47,3 +47,42 @@ Deleting the .git folder may cause problems in your git repository. If you want 
 
     git push -f origin master
 
+=== Change git urls ===
+
+For Locally Existing Repositories
+
+If we have the repository already cloned:
+
+List the Git remote of the repository, git remote -v
+
+Check whether the URL matches our GitHub host to be used, or else update the remote origin URL.
+
+git remote set-url origin git@github.com-worker_user1:worker_user1/repo_name.git
+
+Ensure the string between @ and : matches the Host we have given in the SSH config.
+
+and for submodules
+
+In simple terms, you just need to edit the .gitmodules file, then resync and update
+
+vim .gitmodules
+
+then resync and update:
+
+git submodule sync
+git submodule update --init --recursive --remote
+
+=== Detached HEAD ===
+
+It’s very easy to end up here on accident, and be confused about the error message Git is complaining about despite having done nothing wrong. Luckily, it’s incredibly easy to fix:
+
+If you just checked out a commit, and haven’t touched the repository otherwise (no new commits were made), you can simply move the HEAD back to where it belongs with git checkout:
+
+git checkout master
+
+This is basically like running cd on Linux, except Git still associates cached commits and changes with the old HEAD, so you don’t want to checkout if you have commits or changes that would be left hanging.
+
+If you did have some changes, and want to just throw them away, you can hard reset back to master:
+
+git reset --hard origin/master
+git clean -d --force
