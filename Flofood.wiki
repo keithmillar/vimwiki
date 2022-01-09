@@ -12,4 +12,3 @@ The [[https://github.com|github]] account is linked to netlify for login.
 [[https://focused-edison-4f80e0.netlify.com/|focused-edison-4f80e0.netlify.com]]
 points to [[https://scrum.florencemillar.co.uk/|scrum.florencemillar.co.uk/]]
 
-This site is build with jekyll some deploy settings are different.
