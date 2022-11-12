@@ -30,11 +30,11 @@
   * [[i3 Volume]]
 
 ==== Vim ====
-  * [[Commands]]
-  * [[Sorting]]
-  * [[Wiki Hacks]]
-  * [[Custom Header Script]]
-  * [[Markdown]]
+  * [[Commands j]]
+  * [[Sorting j]]
+  * [[Wiki Hacks j]]
+  * [[Custom Header Script j]]
+  * [[Markdown j]]
 
 ==== Music Video ====
   * [[Music Listings]]
